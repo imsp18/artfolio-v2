@@ -29,7 +29,7 @@ export function HeroSection() {
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg opacity-20"></div>
               <div className="absolute top-4 left-4 right-4 bottom-4 bg-white dark:bg-gray-900 rounded-lg shadow-xl overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="https://i.pinimg.com/736x/ea/2e/b0/ea2eb0869cb22fee7fbcad2554f67b53.jpg"
                   alt="Digital artwork showcase"
                   className="w-full h-full object-cover"
                 />

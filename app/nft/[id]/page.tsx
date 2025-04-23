@@ -163,14 +163,14 @@ export default function NFTDetailPage() {
             </Button>
           </div>
 
-          <Alert className="mb-6">
+          {/* <Alert className="mb-6">
             <AlertCircle className="h-4 w-4" />
             <AlertTitle>Demo Mode</AlertTitle>
             <AlertDescription>
               This is running in demo mode. NFT purchases will be simulated and won't involve actual blockchain
               transactions.
             </AlertDescription>
-          </Alert>
+          </Alert> */}
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* NFT Image */}

@@ -12,7 +12,7 @@ const mockNFTDatabase: NFT[] = [
     title: "Abstract Harmony",
     creator: "0x8a23...45f1",
     price: "2.5 SOL",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "https://images.unsplash.com/photo-1728044849242-516700295875?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
     description: "A vibrant abstract piece exploring the harmony of colors and shapes.",
     listed: true,
     createdAt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(), // 7 days ago
@@ -22,7 +22,7 @@ const mockNFTDatabase: NFT[] = [
     title: "Digital Dreamscape",
     creator: "0x7b12...9e23",
     price: "1.8 SOL",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "https://images.unsplash.com/photo-1633287453177-24823499b02c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMGRyZWFtc2NhcGV8ZW58MHx8MHx8fDA%3D",
     description: "Journey through a surreal digital landscape of dreams and imagination.",
     listed: true,
     createdAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(), // 5 days ago
@@ -32,7 +32,7 @@ const mockNFTDatabase: NFT[] = [
     title: "Neon Wilderness",
     creator: "0x3f67...12d4",
     price: "3.2 SOL",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "https://plus.unsplash.com/premium_photo-1728598786758-f41b56efa272?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVvbiUyMHdpbGRlcm5lc3N8ZW58MHx8MHx8fDA%3D",
     description: "A neon-infused exploration of wild nature in the digital age.",
     listed: true,
     createdAt: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(), // 3 days ago
@@ -42,7 +42,7 @@ const mockNFTDatabase: NFT[] = [
     title: "Cosmic Perspective",
     creator: "0x9c34...78b2",
     price: "4.0 SOL",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "https://plus.unsplash.com/premium_photo-1670508511045-1b9d41253f25?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29zbWljJTIwcGVyc3BlY3RpdmV8ZW58MHx8MHx8fDA%3D",
     description: "A glimpse into the vastness of the cosmos from a unique perspective.",
     listed: true,
     createdAt: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(), // 2 days ago
@@ -52,7 +52,7 @@ const mockNFTDatabase: NFT[] = [
     title: "Ethereal Landscape",
     creator: "0x2d56...34a9",
     price: "2.1 SOL",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "https://images.unsplash.com/photo-1550410649-3e332887031c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXRoZXJlYWwlMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D",
     description: "An ethereal landscape that blends reality with the supernatural.",
     listed: true,
     createdAt: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(), // 1 day ago
@@ -62,12 +62,13 @@ const mockNFTDatabase: NFT[] = [
     title: "Pixel Revolution",
     creator: "0x6e87...91c3",
     price: "1.5 SOL",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "https://images.unsplash.com/photo-1663719720334-4e848b683a22?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGl4ZWwlMjByZXZvbHV0aW9ufGVufDB8fDB8fHww",
     description: "A revolution of pixels creating a nostalgic yet futuristic aesthetic.",
     listed: true,
     createdAt: new Date(Date.now() - 12 * 60 * 60 * 1000).toISOString(), // 12 hours ago
   },
-]
+];
+
 
 interface NFT {
   id: string

@@ -87,14 +87,14 @@ export default function CreateNFTPage() {
         <div className="container mx-auto max-w-3xl">
           <h1 className="text-3xl font-bold mb-8">Create NFT</h1>
 
-          <Alert className="mb-6">
+          {/* <Alert className="mb-6">
             <AlertCircle className="h-4 w-4" />
             <AlertTitle>Demo Mode</AlertTitle>
             <AlertDescription>
               This is running in demo mode. NFTs will be created with mock data and won't be minted on the actual
               blockchain.
             </AlertDescription>
-          </Alert>
+          </Alert> */}
 
           {!connected ? (
             <Card>
